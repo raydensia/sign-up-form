@@ -1,1 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@font-face {
+    font-family: "caslon";
+    src: url("./adobe-caslon-pro-webfont/acaslonpro-regular-webfont.woff2") format("woff2"), url("./adobe-caslon-pro-webfont/acaslonpro-regular-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "caslon-semibold";
+    src: url("./adobe-caslon-pro-webfont/acaslonpro-semibold-webfont.woff2") format("woff2"), url("./adobe-caslon-pro-webfont/acaslonpro-semibold-webfont.woff")
+        format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+input {
+    width: 10rem;
+}
+
+input:active {
+    border-color: #85B79C;
+}
+
+input:focus {
+    background-color: #aee6c8;
+    border-color: #85B79C;
+}
+
+
+
+.left {
+    background-image: url("./way-kings-stormlight-archive-brandon-sanderson-cover-cropped.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    /* min-width: 40%; */
+    padding: 15rem 0 0 0;
+}
+
+.title {
+    /* font: 2rem 'Fondamento'; */
+    font: 1.8rem "Cinzel Decorative";
+}
+
+.logo-title-container {
+    background-color: #2C3260;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.credits {
+    text-align: center;
+    margin-bottom: 1rem;
+    font: 1rem caslan;
+    color:rgb(255, 255, 255)
+}
+
+.logo {
+    width: 9rem;
+}
+
+.title {
+    color: white;
+}
+
+.right {
+    background-color: #fef5ea;
+    /* padding: 8rem 0 0 0; */
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.form-description {
+    font: 1.3rem "caslon";
+    display: block;
+    padding: 0 0 0.5rem 3rem;
+}
+
+.ideals {
+    font:  1.3rem "caslon-semibold";
+}
+
+.form-container {
+    padding: 2rem 0 2rem 3rem;
+    background-color: beige;
+    margin-bottom: 3rem;
+}
+
+.form-call-to-action {
+    font: 1.3rem caslon;
+}
+
+form {
+    padding: 2rem 0 0 0;
+    font: 1rem caslon;
+}
+
+label {
+    white-space: nowrap;
+}
+
+.form-row {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 1rem;
+
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: fit-content;
+    font: 1.3rem caslon;
+    padding: 0.3rem 0.5rem 0 0.5rem;
+    display: block;
+    margin: 0 0 1rem 3rem;
+
+}
+
+.already-have-an-account {
+    font: 1rem caslan;
+    color: black;
+    padding: 0 0 4rem 3rem;
+}
+
+.already-have-an-account-link {
+    font: 1rem caslan;
+    color: black;
+}
+
+
+
+
 

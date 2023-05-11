@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="sign-up-form.js" defer></script>
+    <title>Sign-up Here</title>
 
+</head>
+<body>
+    <div class="left">
+        <div class="logo-title-container">
+            <img src="./knights-radiant-logo.webp" alt="Logo of Knights Radiant" class="logo" />
+            <span class="title">The Knights Radiant</span>
+        </div>
+        <span class="credits">Photo by <a href="https://www.michaelwhelan.com/stormlight-archive-original-art/" class="credits">Michael Whelan</a></span>
+    </div>
+    <div class="right">
+        <span class="form-description ideals">Life before death. Strength before weakness. Journey before destination.</span>
+        <span class="form-description">Say the most important words a man can say.</span>
+        <span class="form-description">Take the most important step a man can take.</span>
+        <span class="form-description">Join the Knights Radiant.</span>
+        <div class="form-container">
+            <span class="form-call-to-action">Take the next step.</span>
+            <form id="myform" action="" method="post">
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="orders">SELECT YOUR ORDER</label>
+                        <select name="orders" id="orders">
+                            <option value="" disabled selected>Orders:</option>
+                            <option value="windrunners">Windrunners</option>
+                            <option value="skybreakers">Skybreakers</option>
+                            <option value="dustbringers">Dustbringers</option>
+                            <option value="edgedancers">Edgedancers</option>
+                            <option value="truthwatchers">Truthwatchers</option>
+                            <option value="lightweavers">Lightweavers</option>
+                            <option value="elsecallers">Elsecallers</option>
+                            <option value="willshapers">Willshapers</option>
+                            <option value="stonewards">Stonewards</option>
+                            <option value="bondsmiths">Bondsmiths</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="input-container">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="tel" name="number" id="number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button type="submit" form="myform" value="">Join Now</button>
+        <span class="already-have-an-account">Already sworn the First Ideals? <a href="" class="already-have-an-account-link">Welcome back.</a></span>
+    </div>
+</body>
+</html>
